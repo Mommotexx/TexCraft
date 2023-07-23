@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.mommotexx.texcraft;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
