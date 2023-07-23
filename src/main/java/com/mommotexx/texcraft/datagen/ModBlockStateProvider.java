@@ -1,6 +1,7 @@
 package com.mommotexx.texcraft.datagen;
 
 import com.mommotexx.texcraft.TexCraft;
+import com.mommotexx.texcraft.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
@@ -14,7 +15,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-
+        blockWithItem(ModBlocks.ALEXANDRITE_BLOCK);
+        blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+        blockWithItem(ModBlocks.ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.END_STONE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.NETHER_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
     }
 
     private void blockWithItem(RegistryObject<Block> block) {

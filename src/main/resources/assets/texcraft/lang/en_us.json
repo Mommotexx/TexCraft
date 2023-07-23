@@ -1,0 +1,11 @@
+{
+  "item.texcraft.alexandrite": "Alexandrite",
+  "item.texcraft.raw_alexandrite": "Raw Alexandrite",
+
+  "block.texcraft.alexandrite_block": "Block of Alexandrite",
+  "block.texcraft.raw_alexandrite_block": "Block of Raw Alexandrite",
+  "block.texcraft.alexandrite_ore": "Alexandrite Ore",
+  "block.texcraft.nether_alexandrite_ore": "Nether Alexandrite Ore",
+  "block.texcraft.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
+  "block.texcraft.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore"
+}

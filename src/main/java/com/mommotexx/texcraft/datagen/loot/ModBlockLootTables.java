@@ -1,6 +1,7 @@
 package com.mommotexx.texcraft.datagen.loot;
 
 import com.mommotexx.texcraft.block.ModBlocks;
+import com.mommotexx.texcraft.item.ModItems;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
@@ -15,7 +16,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        this.dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
 
+        this.add(ModBlocks.ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.ALEXANDRITE.get()));
+        this.add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(), ModItems.ALEXANDRITE.get()));
+        this.add(ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.NETHER_ALEXANDRITE_ORE.get(), ModItems.ALEXANDRITE.get()));
+        this.add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), ModItems.ALEXANDRITE.get()));
     }
 
     @Override

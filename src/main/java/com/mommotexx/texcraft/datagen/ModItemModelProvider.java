@@ -1,6 +1,7 @@
 package com.mommotexx.texcraft.datagen;
 
 import com.mommotexx.texcraft.TexCraft;
+import com.mommotexx.texcraft.item.ModItems;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -16,7 +17,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-
+        simpleItem(ModItems.ALEXANDRITE);
+        simpleItem(ModItems.RAW_ALEXANDRITE);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
