@@ -2,6 +2,7 @@ package com.mommotexx.texcraft;
 
 import com.mojang.logging.LogUtils;
 import com.mommotexx.texcraft.block.ModBlocks;
+import com.mommotexx.texcraft.item.ModCreativeTabs;
 import com.mommotexx.texcraft.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,6 +30,8 @@ public class TexCraft {
 
     public TexCraft() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);

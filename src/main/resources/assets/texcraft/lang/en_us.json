@@ -7,5 +7,6 @@
   "block.texcraft.alexandrite_ore": "Alexandrite Ore",
   "block.texcraft.nether_alexandrite_ore": "Nether Alexandrite Ore",
   "block.texcraft.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
-  "block.texcraft.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore"
+  "block.texcraft.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+  "creativetab.texcraft_tab": "TexCraft"
 }
