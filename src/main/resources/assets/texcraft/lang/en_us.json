@@ -1,6 +1,7 @@
 {
   "item.texcraft.alexandrite": "Alexandrite",
   "item.texcraft.raw_alexandrite": "Raw Alexandrite",
+  "item.texcraft.metal_detector": "Metal Detector",
 
   "block.texcraft.alexandrite_block": "Block of Alexandrite",
   "block.texcraft.raw_alexandrite_block": "Block of Raw Alexandrite",
@@ -8,5 +9,8 @@
   "block.texcraft.nether_alexandrite_ore": "Nether Alexandrite Ore",
   "block.texcraft.end_stone_alexandrite_ore": "End Stone Alexandrite Ore",
   "block.texcraft.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
-  "creativetab.texcraft_tab": "TexCraft"
+  "creativetab.texcraft_tab": "TexCraft",
+
+  "tooltip.texcraft.tooltip": "Hold SHIFT for more information",
+  "tooltip.texcraft.metal_detector.tooltip.shift": "Right click to search for metal blocks"
 }
