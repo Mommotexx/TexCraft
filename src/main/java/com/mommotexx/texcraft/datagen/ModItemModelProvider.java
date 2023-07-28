@@ -20,6 +20,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.ALEXANDRITE);
         simpleItem(ModItems.RAW_ALEXANDRITE);
         simpleItem(ModItems.METAL_DETECTOR);
+        simpleItem(ModItems.STRAWBERRY);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
